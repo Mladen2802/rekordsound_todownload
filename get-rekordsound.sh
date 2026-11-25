@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # One-line install for macOS. The person pastes this into Terminal:
 #
-#   curl -fsSL https://YOUR-HOST/get-rekordsound.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/Mladen2802/rekordsound_todownload/main/get-rekordsound.sh | bash
 #
 # curl downloads are not flagged by macOS, so there is no "damaged" / "unidentified developer" warning. The script downloads the
 # zip, unpacks it into ~/rekordsound, then installs what is missing and starts the app. Running it again updates the program files

@@ -9,7 +9,7 @@
 #
 # Host get-rekordsound.sh and rekordsound.zip together (a GitHub release, your own server, any file link that downloads directly),
 # then set ZIP_URL below to the zip's link, or pass REKORDSOUND_ZIP_URL=... when running.
-ZIP_URL="${REKORDSOUND_ZIP_URL:-https://REPLACE-WITH-YOUR-LINK/rekordsound.zip}"
+ZIP_URL="${REKORDSOUND_ZIP_URL:-https://github.com/Mladen2802/rekordsound_todownload/raw/refs/heads/main/rekordsound.zip}"
 DEST="${REKORDSOUND_DIR:-$HOME/rekordsound}"
 
 set -e
